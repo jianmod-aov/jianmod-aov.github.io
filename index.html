@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="seo-title">PHÚC AOV</title>
+<meta name="description" id="seo-desc" content="">
+<link id="favicon" rel="icon" href="/uploads/intro/1785223665_087e144254b7ed32.png" type="image/png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="/assets/css/style.2.0.css?v=20261009n">
+<link rel="stylesheet" href="/assets/css/lb-card.css?v=20261009n">
+<style>[hidden]{display:none!important}</style>
+</head>
+<body>
+<div class="vt-sky-overlay" id="skyOverlay" aria-hidden="true"></div>
+<main role="main">
+<nav class="vthangios-nav" aria-label="Điều hướng chính">
+<button class="vthangios-bell-btn" id="bellBtn" aria-label="Thông báo"><i class="fas fa-bell"></i><span id="bellDot" hidden></span></button>
+<button class="vthangios-theme-btn" id="themeBtn" aria-label="Chuyển chế độ tối/sáng"><i class="bi bi-sun-fill vthangios-theme-icon" id="themeIcon"></i></button>
+</nav>
+<div id="notifOverlay" class="vthangios-notif-overlay"></div>
+<div id="notifPanel" class="vthangios-notif-panel">
+<div class="vthangios-notif-header"><span><i class="fas fa-bell"></i> <span id="notifTitle">Thông Báo</span></span><button id="notifClose" class="vthangios-notif-close"><i class="fas fa-xmark"></i></button></div>
+<div class="vthangios-notif-body" id="notifBody"></div>
+</div>
+<div class="vthangios-avatar-wrap has-frame" id="avatarWrap">
+<img class="vthangios-avatar" id="avatarImg" src="/uploads/intro/1785225956_f40be83fd24a69c4.jpeg" alt="avatar" width="120" height="120">
+<img class="vthangios-avatar-frame" id="avatarFrame" src="/uploads/intro/1789270294_e1f9986c9748fea3.png" alt="" hidden>
+</div>
+<p class="vthangios-iam" id="iamText">Hi, i am</p>
+<h1 class="vthangios-name"><span id="profileName">PHÚC AOV</span> <img class="vthangios-verify" id="verifyBadge" src="/assets/img/verify.png" alt="verified" width="27" height="27"></h1>
+<p class="vthangios-headline"><span id="headlinePrefix">and I'm a</span> <span id="typedText" class="vthangios-gradient-text"></span></p>
+<div class="vthangios-socials" id="socials"></div>
+<div class="vthangios-linkbox-section" id="linkboxSec"></div>
+<section class="vthangios-app-section" aria-label="Danh sách ứng dụng"><div id="groups"></div></section>
+<div id="lightbox" class="vthangios-preview-modal">
+<button type="button" class="vthangios-preview-close" id="lbClose"><i class="fas fa-xmark"></i></button>
+<div id="lbTitle" class="vthangios-preview-title"></div>
+<div class="vthangios-preview-stage"><img id="vthangios-preview-img" src="" alt="Preview" draggable="false"></div>
+<div class="vthangios-preview-nav"><button type="button" class="vthangios-preview-arrow" id="lbPrev"><i class="fas fa-arrow-left"></i></button><div id="lbDots" class="vthangios-preview-dots"></div><button type="button" class="vthangios-preview-arrow" id="lbNext"><i class="fas fa-arrow-right"></i></button></div>
+</div>
+<div class="vthangios-widgets">
+<div class="vthangios-music-card" id="musicCard" hidden>
+<div class="vthangios-music-art-wrap"><div class="vthangios-music-art" id="disc"><i class="fa-brands fa-soundcloud"></i></div></div>
+<div class="vthangios-music-info">
+<div class="vthangios-music-row"><div class="vthangios-music-text"><div class="vthangios-music-head"><p class="vthangios-music-title" id="mTitle">SoundCloud</p></div><p class="vthangios-music-artist" id="mArtist">by vthangios</p></div>
+<div class="vthangios-music-controls"><button type="button" class="vthangios-music-btn" id="mPrev" aria-label="Bài trước"><i class="bi bi-skip-start-fill"></i></button><button type="button" class="vthangios-music-toggle" id="mToggle" aria-label="Phát nhạc"><i class="fa-solid fa-play" id="mIcon"></i></button><button type="button" class="vthangios-music-btn" id="mNext" aria-label="Bài tiếp"><i class="bi bi-skip-end-fill"></i></button></div></div>
+<div class="vthangios-music-progress-row"><span class="vthangios-music-time" id="tCur">0:00</span><div class="vthangios-music-progress" id="mProgress" role="slider" aria-label="Tua nhạc"><div class="vthangios-music-progress-fill" id="mFill"></div></div><span class="vthangios-music-time" id="tTotal">0:00</span></div>
+<audio id="audio" preload="none"></audio>
+<div id="vt-music-frame-holder" aria-hidden="true"></div>
+</div>
+</div>
+<div class="vthangios-yt-banner" id="ytBanner" hidden>
+<div class="vthangios-yt-main"><div class="vthangios-yt-head"><img class="vthangios-yt-avatar" id="ytAvatar" src="" alt="yt" width="80" height="80"><div class="vthangios-yt-text"><p class="vthangios-yt-title" id="ytName"></p><p class="vthangios-yt-handle" id="ytHandle"></p><p class="vthangios-yt-meta" id="ytMeta"></p></div></div></div>
+<a href="#" id="ytBtn" target="_blank" rel="noopener" class="vthangios-yt-btn">Đăng ký</a>
+</div>
+</div>
+<footer class="vthangios-footer" id="footerText"></footer>
+</main>
+<script src="/assets/config.js"></script>
+<script src="/app.js?v=20261009n"></script>
+<script>
+/* Chong cache cu: HTML moi nhung app.js bi cache ban cu -> keu nguoi dung F5 ngay */
+setTimeout(function(){
+  if(window.__VT_VER==='20261009n') return;
+  var b=document.createElement('div');
+  b.textContent='BẢN CŨ CÒN TRONG CACHE — bấm Ctrl+F5 (hoặc Ctrl+Shift+R) để tải lại trang.';
+  b.style.cssText='position:fixed;left:0;right:0;top:0;z-index:99999;background:#b91c1c;color:#fff;font:700 13px/1.5 system-ui,sans-serif;padding:10px 14px;text-align:center';
+  document.body.appendChild(b);
+},1200);
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+# VT iOS - Apache/cPanel rules
+DirectoryIndex index.html
+Options -Indexes
+
+RewriteEngine On
+RewriteRule ^api/config$ api/config.php [L,QSA]
+RewriteRule ^api/health$ api/health.php [L,QSA]
+RewriteRule ^api/login$ api/login.php [L,QSA]
+RewriteRule ^api/admin/data$ api/admin/data.php [L,QSA]
+RewriteRule ^api/admin/save$ api/admin/save.php [L,QSA]
+RewriteRule ^api/admin/upload$ api/admin/upload.php [L,QSA]
+RewriteRule ^api/admin/change-password$ api/admin/change-password.php [L,QSA]
+
+# Chan cache ban cu cho html/js/css (tranh trinh duyen tai app.js cu)
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|js|css)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+  </FilesMatch>
+</IfModule>
+
+# Chan truy cap truc tiep file du lieu (chi PHP duoc doc)
+<Files "data.json">
+  Require all denied
+</Files>
+<Files "tokens.json">
+  Require all denied
+</Files>

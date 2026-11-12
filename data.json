@@ -1,0 +1,223 @@
+{
+    "settings": {
+        "site_title": "PHÚC AOV",
+        "site_desc": "Nền tảng cung cấp giải pháp công nghệ ios 5.0 giúp game thủ leo rank an toàn và hiệu quả.",
+        "iam_text": "Hi, i am",
+        "profile_name": "PHÚC AOV",
+        "verify_badge": true,
+        "verify_img": "\/assets\/img\/verify.png",
+        "favicon": "\/uploads\/intro\/1785223665_087e144254b7ed32.png",
+        "headline_prefix": "and I'm a",
+        "headline_words": [
+            "iOS Developer",
+            "Modder",
+            "Content Creator"
+        ],
+        "avatar_url": "\/uploads\/custom\/1791530961_b6e0a9c5a54f.png",
+        "avatar_frame_url": "\/uploads\/intro\/1789270294_e1f9986c9748fea3.png",
+        "footer_text": "© Designer by PHÚC AOV iOS 2026",
+        "accent": "#93e3fd",
+        "accent2": "#b51a00",
+        "default_dark": true,
+        "admin_user": "admin",
+        "admin_pass": "bafseH-9gogmo-tonpon"
+    },
+    "socials": [
+        {
+            "id": 1,
+            "url": "https:\/\/key.phucaov.site\/113",
+            "icon_url": "\/uploads\/custom\/1791530534_b49664a87d53.png",
+            "label": "Cộng Đồng PHÚC AOV"
+        },
+        {
+            "id": 2,
+            "url": "https:\/\/t.me\/phucios1",
+            "icon_url": "\/uploads\/social\/1785226222_d9d79e31dfb0b49d.png",
+            "label": "Telegram"
+        },
+        {
+            "id": 3,
+            "url": "https:\/\/www.youtube.com\/@phucios-x3l",
+            "icon_url": "\/uploads\/social\/1785226233_576f35dc9945948f.png",
+            "label": "Youtube"
+        }
+    ],
+    "notifs": [
+        {
+            "id": 89104,
+            "title": "Thông báo mới",
+            "content": "LẤY KEY XONG NHỚ TẤT CẢ TAB CŨ NHÉ",
+            "time": "Vừa xong"
+        }
+    ],
+    "linkboxes": [
+        {
+            "id": 1,
+            "title": "Shop Mua Key",
+            "desc": "Mua key iOS + Android",
+            "icon": "fa-solid fa-bag-shopping",
+            "color": "#15803d",
+            "url": "https:\/\/vnmods.com\/"
+        },
+        {
+            "id": 2,
+            "title": "Nhận Tài Khoản Miễn Phí",
+            "desc": "Mỗi ngày chỉ nhận được 2 lần",
+            "icon": "fa-brands fa-telegram",
+            "color": "#1d9bf0",
+            "url": "https:\/\/accfree.click\/"
+        },
+        {
+            "id": 3,
+            "title": "Hướng dẫn",
+            "desc": "Xem hướng dẫn chi tiết",
+            "icon": "fa-solid fa-circle-play",
+            "color": "#b91c1c",
+            "url": ""
+        }
+    ],
+    "groups": [
+        {
+            "id": 6,
+            "name": "APP"
+        },
+        {
+            "id": 90037,
+            "name": "NHÓM MỚI"
+        }
+    ],
+    "apps": [
+        {
+            "id": 60520,
+            "group_id": 6,
+            "name": "MENU PHÚC AOV IOS KÍN",
+            "desc": "TẢI TRỰC TIẾP ",
+            "icon_url": "\/uploads\/custom\/1791527479_40d25e44cf43.jpeg",
+            "banner_url": "\/uploads\/custom\/1791527487_ba458512f4cb.jpeg",
+            "previews": [],
+            "platforms": [
+                "iOS"
+            ],
+            "download_url": "https:\/\/testflight.apple.com\/join\/cfzYVv6g",
+            "getkey_url": "https:\/\/ontops.link\/eQ41ahu",
+            "show_getkey": true
+        },
+        {
+            "id": 27604,
+            "group_id": 6,
+            "name": "MENU TÍM CHẤP TỐ CÁO IOS",
+            "desc": "TẢI TRỰC TIẾP",
+            "icon_url": "\/uploads\/custom\/1791527712_3e23533f2dbd.jpeg",
+            "banner_url": "\/uploads\/custom\/1791530417_fb885ada9e1e.jpeg",
+            "previews": [],
+            "platforms": [
+                "iOS"
+            ],
+            "download_url": "https:\/\/storeipa.com\/8KHA1F",
+            "getkey_url": "https:\/\/ontops.link\/oQ4dhuJ",
+            "show_getkey": true
+        },
+        {
+            "id": 64194,
+            "group_id": 6,
+            "name": "MENU XANH CHẤP TỐ CÁO IOS",
+            "desc": "YÊU CẦU CÓ ESGIN",
+            "icon_url": "\/uploads\/custom\/1791527734_6d65e7976f8a.jpeg",
+            "banner_url": "\/uploads\/custom\/1791529827_66743e0cd69c.jpeg",
+            "previews": [],
+            "platforms": [
+                "iOS"
+            ],
+            "download_url": "https:\/\/transfer.it\/t\/rbXsXSgFFTpR",
+            "getkey_url": "https:\/\/ontops.link\/oQ4dhuJ",
+            "show_getkey": true
+        },
+        {
+            "id": 24518,
+            "group_id": 6,
+            "name": "MENU PHUCAOV ADR KÍN",
+            "desc": "TẢI TRỰC TIẾP",
+            "icon_url": "\/uploads\/custom\/1791527741_ed07f56d34f7.jpeg",
+            "banner_url": "",
+            "previews": [],
+            "platforms": [
+                "Android"
+            ],
+            "download_url": "https:\/\/www.mediafire.com\/file\/jfl1uw0ls9pzapl\/LQMOD_1.64.1.7.apk\/file",
+            "getkey_url": "https:\/\/goctool.vn\/GETKEY\/phuchello",
+            "show_getkey": true
+        },
+        {
+            "id": 77746,
+            "group_id": 6,
+            "name": "MENU FREE FIRE IOS",
+            "desc": "YÊU CẦU CÓ ESGIN",
+            "icon_url": "\/uploads\/custom\/1791663294_a26c900c9eae.jpeg",
+            "banner_url": "\/uploads\/custom\/1791663298_8df022f3f394.jpeg",
+            "previews": [],
+            "platforms": [
+                "iOS"
+            ],
+            "download_url": "https:\/\/www.mediafire.com\/file\/64c53xdov6b33ud\/Delta+@HP+MOD%F0%9F%94%A5_1.0.0_1791650696.ipa\/file",
+            "getkey_url": "https:\/\/ontops.link\/oQ4dhuJ",
+            "show_getkey": true
+        },
+        {
+            "id": 71933,
+            "group_id": 6,
+            "name": "MENU TRẮNG CHẤP TỐ IOS",
+            "desc": "TẢI TRỰC TIẾP",
+            "icon_url": "\/uploads\/custom\/1791700728_4583233c23ec.jpeg",
+            "banner_url": "\/uploads\/custom\/1791700736_bd4e6776f935.jpeg",
+            "previews": [],
+            "platforms": [
+                "iOS"
+            ],
+            "download_url": "https:\/\/storeipa.com\/uUvSpW",
+            "getkey_url": "https:\/\/ontops.link\/oQ4dhuJ",
+            "show_getkey": true
+        },
+        {
+            "id": 70544,
+            "group_id": 6,
+            "name": "FILE SKIN KHÔNG LỖI MẠNG",
+            "desc": "Cập nhật hôm nay",
+            "icon_url": "\/uploads\/custom\/1791700808_48118e1c76d2.jpeg",
+            "banner_url": "\/uploads\/custom\/1791700846_78367605f5f9.png",
+            "previews": [],
+            "platforms": [
+                "iOS"
+            ],
+            "download_url": "https:\/\/meganote.vip\/notes\/D7719D",
+            "getkey_url": "https:\/\/",
+            "show_getkey": false
+        }
+    ],
+    "music": {
+        "enabled": true,
+        "title": "SoundCloud",
+        "artist": "by phucaov",
+        "audio_url": "",
+        "soundcloud_url": ""
+    },
+    "youtube": {
+        "enabled": true,
+        "channel_name": "",
+        "handle": "",
+        "avatar_url": "",
+        "subs": "6,65 N người đăng ký",
+        "videos": "2 video",
+        "sub_url": ""
+    },
+    "ui": {
+        "nav_brand": "HPMOD • iOS",
+        "notif_title": "Thông Báo",
+        "notif_empty": "Chưa có thông báo",
+        "search_placeholder": "Tìm app...",
+        "filter_all": "Tất cả nền tảng",
+        "download_btn": "Tải Xuống",
+        "getkey_btn": "Get Key",
+        "open_now_btn": "Mở ngay",
+        "subscribe_btn": "Đăng ký"
+    }
+}
